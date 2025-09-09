@@ -16,7 +16,7 @@ const spacePhenomena = [
 const observationStatuses = ["🔭 Visible", "🌫 Faint", "🚀 Prime for Study"];
 
 function assignStatus() {
-  spacePhenomena.map((item) => ({
+  return spacePhenomena.map((item) => ({
     ...item,
     status:
       observationStatuses[
